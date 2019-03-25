@@ -21,7 +21,8 @@ body {
   transform: translate(-50%, -50%);
   border: 1px solid #F4C95D;
   background: #233142;
-  width: 20%;
+  height: 50vh;
+  width: 30%;
   text-align: center;
   border-radius: 10%
 }
