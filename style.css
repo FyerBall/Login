@@ -1,0 +1,83 @@
+/* Gloabl */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: rgba(244, 201, 93, 0.8);
+}
+
+/* Lognin box */
+.login--form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #F4C95D;
+  background: #233142;
+  width: 20%;
+  text-align: center;
+  border-radius: 10%
+}
+
+/* Login header */
+.login--header {
+  font-size: 2rem;
+  color: #F4C95D;
+  padding: 7rem 2rem 1rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: .2rem;
+}
+
+/* Username and password inputs */
+.login--username, .login--password {
+  border: 2px solid #F4C95D;
+  outline: none;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem;
+  background: none;
+  color: #F4C95D;
+  transition: .15s ease-in-out;
+  border-radius: 2.4rem;
+}
+
+/* Username and password on focus */
+.login--username:focus, .login--password:focus {
+  width: 16rem;
+}
+
+/* Login btn */
+.login--btn {
+  border: 2px solid #F4C95D;
+  outline: none;
+  display: block;
+  margin: 6rem auto;
+  text-align: center;
+  padding: 1rem 4rem;
+  background: none;
+  color: #F4C95D;
+  transition: .15s ease-in-out;
+  border-radius: 2.4rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: monospace, sans-serif;
+}
+
+/* Login btn on hover */
+.login--btn:hover {
+  background: #F4C95D;
+  color: #233142;
+  /* transition: .3s ease; */
+  transition: all .8s ease-out;
+}
